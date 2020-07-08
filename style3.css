@@ -1,0 +1,158 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+body {
+  font-size: 120%;
+  background: url("");
+}
+
+.header {
+  width: 103%;
+  margin: 0px auto 0px;
+  color: white;
+  position: fixed;
+  background: #5D6D7E;
+  text-align: left;
+
+  border: 1px solid #B0C4DE;
+  border-bottom: none;
+  border-radius: 10px 10px 0px 0px;
+  padding: 10px;
+
+}
+.header2 {
+  width: 97%;
+  margin: 30px auto 10px;
+  color: #191716;
+  background: #D0D3D4  ;
+  text-align: center;
+  border: 2px solid #B0C4DE;
+  border-bottom: none;
+  border-radius: 10px 10px 0px 0px;
+  padding: 10px;
+}
+.header3 {
+  width: 97%;
+  margin: 0px auto 0px;
+  color: #191716;
+  background: #D0D3D4  ;
+  text-align: center;
+  border: 1px solid #B0C4DE;
+  border-bottom: none;
+  border-radius: 10px 10px 0px 0px;
+  padding: 10px;
+}
+
+form, .content {
+  width: 50%;
+  margin: 0px left;
+  padding: 20px;
+  border: 1px solid #B0C4DE;
+  background: white;
+  border-radius: 0px 0px 10px 10px;
+}
+
+
+.input-group {
+  margin: 10px 0px 10px 0px;
+}
+.input-group label {
+  display: block;
+  text-align: left;
+  margin: 3px;
+}
+.input-group input {
+  height: 30px;
+  width: 45%;
+  padding: 5px 10px;
+  font-size: 16px;
+  border-radius: 5px;
+  border: 1px solid gray  margin: left;
+  float: left;
+
+
+}
+.input-group2 input {
+  height: 30px;
+  width: 45%;
+  padding: 5px 10px;
+  font-size: 16px;
+  border-radius: 5px;
+  border: 1px solid gray;
+  margin: left;
+  float: right; 
+  border-color: #E7E7F3  ;
+
+}
+.btn {
+  padding: 10px;
+  font-size: 15px;
+  color: white;
+  background: #28B463  ;
+  border: none;
+  border-radius: 5px;
+}
+
+.error {
+  width: 92%; 
+  margin: 0px auto; 
+  padding: 10px; 
+  border: 1px solid #a94442; 
+  color: #a94442; 
+  background: #f2dede; 
+  border-radius: 5px; 
+  text-align: left;
+}
+.success {
+  color: #3c763d; 
+  background: #dff0d8; 
+  border: 1px solid #3c763d;
+  margin-bottom: 20px;
+}
+div.absolute {
+  margin: 10px;
+  padding: 220px;
+    position: absolute;
+    right: 30px;
+    width: 200px;
+    height: 205px;
+    border: 3px solid #8AC007;
+     background: #D0D3D4 ;
+     border: 1px solid #B0C4DE;
+
+
+
+
+     color:#191716;
+  
+  text-align: center;
+  border: 1px solid #B0C4DE;
+  border-bottom: none;
+  border-radius: 10px 10px 0px 0px;
+ 
+
+} 
+div.absolute2 {
+  margin: 60px;
+    position: absolute;
+    right: 20px;
+    width: 500px;
+    height: 120px;
+    border: 3px solid #8AC007;
+} 
+.btn2 {
+  margin: 20px;
+  padding: 15px;
+  font-size: 15px;
+
+  color: white;
+  background: #28B463  ;
+  border: none;
+  border-radius: 20px;
+
+}
+input[type=text]:focus, input[type=password]:focus {
+    background-color: #ddd;
+    outline: none;
+}
